@@ -165,3 +165,26 @@ nav ul li a {
   padding-left: 440px;
   justify-content: flex-end;
 }
+
+.footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-top: 5rem;
+    font-weight: bold;
+}
+
+.footer ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer ul li {
+    list-style: none;
+    padding: 2rem;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+}
